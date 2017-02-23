@@ -1,0 +1,31 @@
+body {
+	overflow: hidden;
+	background: #5f7b48;
+}
+
+@media screen and (max-width: 600px) {
+	.Background::after {
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 80%);
+	}
+	.intro {
+		padding: 1em;
+	}
+	.intro__title {
+		font-size: 2em;
+	}
+	.intro__subtitle {
+		font-size: 0.9em;
+	}
+	.intro__button {
+		font-size: 0.75em;
+	}
+	.codrops-header h1 {
+		font-size: 1.25em;
+	}
+	.codrops-demos {
+		font-size: 0.75em;
+	}
+	.codrops-demos span {
+		display: none;
+	}
+}
